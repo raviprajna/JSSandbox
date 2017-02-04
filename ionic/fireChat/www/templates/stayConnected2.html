@@ -1,0 +1,25 @@
+<ion-view title="Stay Connected">
+    <ion-content overflow-scroll="true" padding="true" style="background: url(img/bricks.jpg) ;" class="has-header">
+        <ion-list show-delete="shouldShowDelete">
+            
+             <ion-item ng-click="goToDetails()" collection-repeat="item in messages" type="item-text-wrap" class="item-remove-animate item-avatar item-icon-right" >
+                 
+<img  ng-src="{{item.googleImgURL}}"   />
+    <p><b>{{item.googleName}}</b></p>
+      <p>{{item.message}}</p>
+       <i class="icon ion-chevron-right icon-accessory" ng-click="messages.$remove(item)" ></i>
+        <ion-delete-button class="ion-minus-circled pull-right" ng-click="messages.$remove(item)" ></ion-delete-button>         
+    </ion-item>
+        </ion-list>
+
+       
+    </ion-content>
+    
+    
+    <ion-footer-bar class="bar-assertive">
+        
+                        <input type="text" placeholder="Enter your Message" ng-model="data.message" style="width: 90%;" > 
+   <button class="button button-clear pull-right ion-android-send" style="width: 10%;" ng-click="addMessage()"></button>
+       </ion-footer-bar>
+    
+</ion-view>

@@ -1,0 +1,15 @@
+{
+  "name": "webpackApp",
+  "version": "1.0.0",
+  "description": "webpack basics",
+  "main": "/js/script.js",
+  "scripts": {
+    "test": "testWC"
+  },
+  "author": "raviprajna",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "webpack": "^1.13.2"
+  }
+}

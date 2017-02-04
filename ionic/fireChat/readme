@@ -1,0 +1,12 @@
+To run this project you need to create firebase account and google project to make google login working.
+
+FIrebase security rules 
+{
+    "rules": {
+        ".read": true,
+        ".write": "auth.uid != null"
+    }
+}
+
+Get 
+Google Client ID: and Google Client Secret: from google 
