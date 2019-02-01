@@ -1,4 +1,4 @@
-# JS Concepts
+## JS Concepts
 
 Classes
 
