@@ -1,2 +1,2 @@
 # Javascript
-Node, Webpack, E56, Ionic, Angular and other Javascript Projects
+Node, Webpack, E56, Ionic, Angular and Javascript sandbox

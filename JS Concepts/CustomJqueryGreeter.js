@@ -1,4 +1,4 @@
-// greeter
+ // greeter
 (function (gb, $) {
     var greet = function (name, langu) {
         return new greet.init(name, langu);
